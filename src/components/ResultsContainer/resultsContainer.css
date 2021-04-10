@@ -1,0 +1,12 @@
+.results-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 40px 100px;
+}
+@media screen and  (max-width: 800px){
+    .results-container{
+        padding: 40px 40px;
+    }
+}
